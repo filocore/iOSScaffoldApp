@@ -1,0 +1,26 @@
+PODS:
+  - CYLTabBarController/Core (1.29.2)
+  - CYLTabBarController/Lottie (1.29.2):
+    - CYLTabBarController/Core
+    - lottie-ios (~> 2.5.3)
+  - lottie-ios (2.5.3)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - CYLTabBarController/Lottie (~> 1.29.0)
+  - Masonry
+
+SPEC REPOS:
+  trunk:
+    - CYLTabBarController
+    - lottie-ios
+    - Masonry
+
+SPEC CHECKSUMS:
+  CYLTabBarController: db44b5901a28693a8a4279e4721b3aafdd36c178
+  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: b37e73559536c49b035a83f55ba381f36c8ff314
+
+COCOAPODS: 1.11.3

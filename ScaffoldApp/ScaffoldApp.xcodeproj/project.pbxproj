@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A0696612880075E00F72771 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0696602880075E00F72771 /* AppDelegate.m */; };
+		5A06966C2880076200F72771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A06966B2880076200F72771 /* Assets.xcassets */; };
+		5A06966F2880076200F72771 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A06966D2880076200F72771 /* LaunchScreen.storyboard */; };
+		5A0696722880076200F72771 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0696712880076200F72771 /* main.m */; };
+		5A06967C2880076200F72771 /* ScaffoldAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A06967B2880076200F72771 /* ScaffoldAppTests.m */; };
+		5A0696862880076200F72771 /* ScaffoldAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0696852880076200F72771 /* ScaffoldAppUITests.m */; };
+		5A0696882880076200F72771 /* ScaffoldAppUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0696872880076200F72771 /* ScaffoldAppUITestsLaunchTests.m */; };
+		5A06969828800B9300F72771 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A06969528800B9300F72771 /* MainTabBarController.m */; };
+		5A06969928800B9300F72771 /* KLMainRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A06969628800B9300F72771 /* KLMainRootViewController.m */; };
+		5A06969D28800C2000F72771 /* KLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A06969C28800C2000F72771 /* KLHomeViewController.m */; };
+		5A0696A028800C3600F72771 /* KLMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A06969F28800C3600F72771 /* KLMessageViewController.m */; };
+		5A0696A328800C5600F72771 /* KLShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0696A228800C5600F72771 /* KLShopViewController.m */; };
+		5A0696A628800C6000F72771 /* KLMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0696A528800C6000F72771 /* KLMineViewController.m */; };
+		5A0696BA28800E9600F72771 /* green_lottie_tab_news.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A0696A828800E9600F72771 /* green_lottie_tab_news.json */; };
+		5A0696BB28800E9600F72771 /* img_tab_home_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0696A928800E9600F72771 /* img_tab_home_2.png */; };
+		5A0696BC28800E9600F72771 /* img_tab_home_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0696AA28800E9600F72771 /* img_tab_home_1.png */; };
+		5A0696BD28800E9600F72771 /* green_lottie_tab_home.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A0696AB28800E9600F72771 /* green_lottie_tab_home.json */; };
+		5A0696BE28800E9600F72771 /* img_tab_home_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0696AC28800E9600F72771 /* img_tab_home_0.png */; };
+		5A0696BF28800E9600F72771 /* gray_tabbar_me_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A0696AD28800E9600F72771 /* gray_tabbar_me_animation.json */; };
+		5A0696C028800E9600F72771 /* tab_me_animate.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A0696AE28800E9600F72771 /* tab_me_animate.json */; };
+		5A0696C128800E9600F72771 /* img_tab_message_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0696AF28800E9600F72771 /* img_tab_message_0.png */; };
+		5A0696C228800E9600F72771 /* img_tab_message_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0696B028800E9600F72771 /* img_tab_message_1.png */; };
+		5A0696C328800E9600F72771 /* tab_home_animate.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A0696B128800E9600F72771 /* tab_home_animate.json */; };
+		5A0696C428800E9600F72771 /* tab_search_animate.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A0696B228800E9600F72771 /* tab_search_animate.json */; };
+		5A0696C528800E9600F72771 /* green_lottie_tab_mine.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A0696B328800E9600F72771 /* green_lottie_tab_mine.json */; };
+		5A0696C628800E9600F72771 /* gray_tabbar_home_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A0696B428800E9600F72771 /* gray_tabbar_home_animation.json */; };
+		5A0696C728800E9600F72771 /* green_lottie_tab_discover.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A0696B528800E9600F72771 /* green_lottie_tab_discover.json */; };
+		5A0696C828800E9600F72771 /* img_tab_me_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0696B628800E9600F72771 /* img_tab_me_0.png */; };
+		5A0696C928800E9600F72771 /* gray_tabbar_message_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A0696B728800E9600F72771 /* gray_tabbar_message_animation.json */; };
+		5A0696CA28800E9600F72771 /* tab_message_animate.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A0696B828800E9600F72771 /* tab_message_animate.json */; };
+		5A0696CB28800E9600F72771 /* img_tab_me_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0696B928800E9600F72771 /* img_tab_me_1.png */; };
+		5A0696D0288144AC00F72771 /* tab_new_msg.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A0696CF288144AC00F72771 /* tab_new_msg.json */; };
+		8EF61DCF3B173EC8EC79E75A /* libPods-ScaffoldApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CABB05B086D010181E3D87 /* libPods-ScaffoldApp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A0696782880076200F72771 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A0696542880075E00F72771 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A06965B2880075E00F72771;
+			remoteInfo = ScaffoldApp;
+		};
+		5A0696822880076200F72771 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A0696542880075E00F72771 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A06965B2880075E00F72771;
+			remoteInfo = ScaffoldApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F21F6AFBD568772D4B5F44E /* Pods-ScaffoldApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaffoldApp.debug.xcconfig"; path = "Target Support Files/Pods-ScaffoldApp/Pods-ScaffoldApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5A06965C2880075E00F72771 /* ScaffoldApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScaffoldApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A06965F2880075E00F72771 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A0696602880075E00F72771 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A06966B2880076200F72771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A06966E2880076200F72771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A0696702880076200F72771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A0696712880076200F72771 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A0696772880076200F72771 /* ScaffoldAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaffoldAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A06967B2880076200F72771 /* ScaffoldAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaffoldAppTests.m; sourceTree = "<group>"; };
+		5A0696812880076200F72771 /* ScaffoldAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaffoldAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A0696852880076200F72771 /* ScaffoldAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaffoldAppUITests.m; sourceTree = "<group>"; };
+		5A0696872880076200F72771 /* ScaffoldAppUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaffoldAppUITestsLaunchTests.m; sourceTree = "<group>"; };
+		5A06969428800B9300F72771 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		5A06969528800B9300F72771 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		5A06969628800B9300F72771 /* KLMainRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLMainRootViewController.m; sourceTree = "<group>"; };
+		5A06969728800B9300F72771 /* KLMainRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLMainRootViewController.h; sourceTree = "<group>"; };
+		5A06969B28800C2000F72771 /* KLHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLHomeViewController.h; sourceTree = "<group>"; };
+		5A06969C28800C2000F72771 /* KLHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLHomeViewController.m; sourceTree = "<group>"; };
+		5A06969E28800C3600F72771 /* KLMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLMessageViewController.h; sourceTree = "<group>"; };
+		5A06969F28800C3600F72771 /* KLMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLMessageViewController.m; sourceTree = "<group>"; };
+		5A0696A128800C5600F72771 /* KLShopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLShopViewController.h; sourceTree = "<group>"; };
+		5A0696A228800C5600F72771 /* KLShopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLShopViewController.m; sourceTree = "<group>"; };
+		5A0696A428800C6000F72771 /* KLMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLMineViewController.h; sourceTree = "<group>"; };
+		5A0696A528800C6000F72771 /* KLMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLMineViewController.m; sourceTree = "<group>"; };
+		5A0696A828800E9600F72771 /* green_lottie_tab_news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = green_lottie_tab_news.json; sourceTree = "<group>"; };
+		5A0696A928800E9600F72771 /* img_tab_home_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_tab_home_2.png; sourceTree = "<group>"; };
+		5A0696AA28800E9600F72771 /* img_tab_home_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_tab_home_1.png; sourceTree = "<group>"; };
+		5A0696AB28800E9600F72771 /* green_lottie_tab_home.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = green_lottie_tab_home.json; sourceTree = "<group>"; };
+		5A0696AC28800E9600F72771 /* img_tab_home_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_tab_home_0.png; sourceTree = "<group>"; };
+		5A0696AD28800E9600F72771 /* gray_tabbar_me_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gray_tabbar_me_animation.json; sourceTree = "<group>"; };
+		5A0696AE28800E9600F72771 /* tab_me_animate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tab_me_animate.json; sourceTree = "<group>"; };
+		5A0696AF28800E9600F72771 /* img_tab_message_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_tab_message_0.png; sourceTree = "<group>"; };
+		5A0696B028800E9600F72771 /* img_tab_message_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_tab_message_1.png; sourceTree = "<group>"; };
+		5A0696B128800E9600F72771 /* tab_home_animate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tab_home_animate.json; sourceTree = "<group>"; };
+		5A0696B228800E9600F72771 /* tab_search_animate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tab_search_animate.json; sourceTree = "<group>"; };
+		5A0696B328800E9600F72771 /* green_lottie_tab_mine.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = green_lottie_tab_mine.json; sourceTree = "<group>"; };
+		5A0696B428800E9600F72771 /* gray_tabbar_home_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gray_tabbar_home_animation.json; sourceTree = "<group>"; };
+		5A0696B528800E9600F72771 /* green_lottie_tab_discover.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = green_lottie_tab_discover.json; sourceTree = "<group>"; };
+		5A0696B628800E9600F72771 /* img_tab_me_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_tab_me_0.png; sourceTree = "<group>"; };
+		5A0696B728800E9600F72771 /* gray_tabbar_message_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gray_tabbar_message_animation.json; sourceTree = "<group>"; };
+		5A0696B828800E9600F72771 /* tab_message_animate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tab_message_animate.json; sourceTree = "<group>"; };
+		5A0696B928800E9600F72771 /* img_tab_me_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_tab_me_1.png; sourceTree = "<group>"; };
+		5A0696CC2880FDB200F72771 /* ScaffoldPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScaffoldPrefixHeader.pch; sourceTree = "<group>"; };
+		5A0696CF288144AC00F72771 /* tab_new_msg.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tab_new_msg.json; sourceTree = "<group>"; };
+		5A0696D1288158DD00F72771 /* KLUIPrefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLUIPrefixHeader.h; sourceTree = "<group>"; };
+		84CABB05B086D010181E3D87 /* libPods-ScaffoldApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScaffoldApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA52D4FC37EA2C607A6C9851 /* Pods-ScaffoldApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaffoldApp.release.xcconfig"; path = "Target Support Files/Pods-ScaffoldApp/Pods-ScaffoldApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A0696592880075E00F72771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF61DCF3B173EC8EC79E75A /* libPods-ScaffoldApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A0696742880076200F72771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A06967E2880076200F72771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A0696532880075E00F72771 = {
+			isa = PBXGroup;
+			children = (
+				5A06965E2880075E00F72771 /* ScaffoldApp */,
+				5A06967A2880076200F72771 /* ScaffoldAppTests */,
+				5A0696842880076200F72771 /* ScaffoldAppUITests */,
+				5A06965D2880075E00F72771 /* Products */,
+				93FE76E9CD10F3C446F5CAA7 /* Pods */,
+				EF8770E5D975748E537B64DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A06965D2880075E00F72771 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A06965C2880075E00F72771 /* ScaffoldApp.app */,
+				5A0696772880076200F72771 /* ScaffoldAppTests.xctest */,
+				5A0696812880076200F72771 /* ScaffoldAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A06965E2880075E00F72771 /* ScaffoldApp */ = {
+			isa = PBXGroup;
+			children = (
+				5A06965F2880075E00F72771 /* AppDelegate.h */,
+				5A0696602880075E00F72771 /* AppDelegate.m */,
+				5A0696CC2880FDB200F72771 /* ScaffoldPrefixHeader.pch */,
+				5A0696D1288158DD00F72771 /* KLUIPrefixHeader.h */,
+				5A06969728800B9300F72771 /* KLMainRootViewController.h */,
+				5A06969628800B9300F72771 /* KLMainRootViewController.m */,
+				5A06969428800B9300F72771 /* MainTabBarController.h */,
+				5A06969528800B9300F72771 /* MainTabBarController.m */,
+				5A0696A728800E9600F72771 /* LottieResources */,
+				5A06969A28800C0400F72771 /* demovc */,
+				5A06966B2880076200F72771 /* Assets.xcassets */,
+				5A06966D2880076200F72771 /* LaunchScreen.storyboard */,
+				5A0696702880076200F72771 /* Info.plist */,
+				5A0696712880076200F72771 /* main.m */,
+			);
+			path = ScaffoldApp;
+			sourceTree = "<group>";
+		};
+		5A06967A2880076200F72771 /* ScaffoldAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A06967B2880076200F72771 /* ScaffoldAppTests.m */,
+			);
+			path = ScaffoldAppTests;
+			sourceTree = "<group>";
+		};
+		5A0696842880076200F72771 /* ScaffoldAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A0696852880076200F72771 /* ScaffoldAppUITests.m */,
+				5A0696872880076200F72771 /* ScaffoldAppUITestsLaunchTests.m */,
+			);
+			path = ScaffoldAppUITests;
+			sourceTree = "<group>";
+		};
+		5A06969A28800C0400F72771 /* demovc */ = {
+			isa = PBXGroup;
+			children = (
+				5A06969B28800C2000F72771 /* KLHomeViewController.h */,
+				5A06969C28800C2000F72771 /* KLHomeViewController.m */,
+				5A06969E28800C3600F72771 /* KLMessageViewController.h */,
+				5A06969F28800C3600F72771 /* KLMessageViewController.m */,
+				5A0696A128800C5600F72771 /* KLShopViewController.h */,
+				5A0696A228800C5600F72771 /* KLShopViewController.m */,
+				5A0696A428800C6000F72771 /* KLMineViewController.h */,
+				5A0696A528800C6000F72771 /* KLMineViewController.m */,
+			);
+			path = demovc;
+			sourceTree = "<group>";
+		};
+		5A0696A728800E9600F72771 /* LottieResources */ = {
+			isa = PBXGroup;
+			children = (
+				5A0696CF288144AC00F72771 /* tab_new_msg.json */,
+				5A0696A828800E9600F72771 /* green_lottie_tab_news.json */,
+				5A0696A928800E9600F72771 /* img_tab_home_2.png */,
+				5A0696AA28800E9600F72771 /* img_tab_home_1.png */,
+				5A0696AB28800E9600F72771 /* green_lottie_tab_home.json */,
+				5A0696AC28800E9600F72771 /* img_tab_home_0.png */,
+				5A0696AD28800E9600F72771 /* gray_tabbar_me_animation.json */,
+				5A0696AE28800E9600F72771 /* tab_me_animate.json */,
+				5A0696AF28800E9600F72771 /* img_tab_message_0.png */,
+				5A0696B028800E9600F72771 /* img_tab_message_1.png */,
+				5A0696B128800E9600F72771 /* tab_home_animate.json */,
+				5A0696B228800E9600F72771 /* tab_search_animate.json */,
+				5A0696B328800E9600F72771 /* green_lottie_tab_mine.json */,
+				5A0696B428800E9600F72771 /* gray_tabbar_home_animation.json */,
+				5A0696B528800E9600F72771 /* green_lottie_tab_discover.json */,
+				5A0696B628800E9600F72771 /* img_tab_me_0.png */,
+				5A0696B728800E9600F72771 /* gray_tabbar_message_animation.json */,
+				5A0696B828800E9600F72771 /* tab_message_animate.json */,
+				5A0696B928800E9600F72771 /* img_tab_me_1.png */,
+			);
+			path = LottieResources;
+			sourceTree = "<group>";
+		};
+		93FE76E9CD10F3C446F5CAA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F21F6AFBD568772D4B5F44E /* Pods-ScaffoldApp.debug.xcconfig */,
+				BA52D4FC37EA2C607A6C9851 /* Pods-ScaffoldApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EF8770E5D975748E537B64DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84CABB05B086D010181E3D87 /* libPods-ScaffoldApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A06965B2880075E00F72771 /* ScaffoldApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A06968B2880076200F72771 /* Build configuration list for PBXNativeTarget "ScaffoldApp" */;
+			buildPhases = (
+				931494C3F0864D4787D52936 /* [CP] Check Pods Manifest.lock */,
+				5A0696582880075E00F72771 /* Sources */,
+				5A0696592880075E00F72771 /* Frameworks */,
+				5A06965A2880075E00F72771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScaffoldApp;
+			productName = ScaffoldApp;
+			productReference = 5A06965C2880075E00F72771 /* ScaffoldApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A0696762880076200F72771 /* ScaffoldAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A06968E2880076200F72771 /* Build configuration list for PBXNativeTarget "ScaffoldAppTests" */;
+			buildPhases = (
+				5A0696732880076200F72771 /* Sources */,
+				5A0696742880076200F72771 /* Frameworks */,
+				5A0696752880076200F72771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A0696792880076200F72771 /* PBXTargetDependency */,
+			);
+			name = ScaffoldAppTests;
+			productName = ScaffoldAppTests;
+			productReference = 5A0696772880076200F72771 /* ScaffoldAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A0696802880076200F72771 /* ScaffoldAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A0696912880076200F72771 /* Build configuration list for PBXNativeTarget "ScaffoldAppUITests" */;
+			buildPhases = (
+				5A06967D2880076200F72771 /* Sources */,
+				5A06967E2880076200F72771 /* Frameworks */,
+				5A06967F2880076200F72771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A0696832880076200F72771 /* PBXTargetDependency */,
+			);
+			name = ScaffoldAppUITests;
+			productName = ScaffoldAppUITests;
+			productReference = 5A0696812880076200F72771 /* ScaffoldAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A0696542880075E00F72771 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					5A06965B2880075E00F72771 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					5A0696762880076200F72771 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 5A06965B2880075E00F72771;
+					};
+					5A0696802880076200F72771 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 5A06965B2880075E00F72771;
+					};
+				};
+			};
+			buildConfigurationList = 5A0696572880075E00F72771 /* Build configuration list for PBXProject "ScaffoldApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A0696532880075E00F72771;
+			productRefGroup = 5A06965D2880075E00F72771 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A06965B2880075E00F72771 /* ScaffoldApp */,
+				5A0696762880076200F72771 /* ScaffoldAppTests */,
+				5A0696802880076200F72771 /* ScaffoldAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A06965A2880075E00F72771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A0696C128800E9600F72771 /* img_tab_message_0.png in Resources */,
+				5A0696D0288144AC00F72771 /* tab_new_msg.json in Resources */,
+				5A06966F2880076200F72771 /* LaunchScreen.storyboard in Resources */,
+				5A0696C428800E9600F72771 /* tab_search_animate.json in Resources */,
+				5A0696C528800E9600F72771 /* green_lottie_tab_mine.json in Resources */,
+				5A0696C328800E9600F72771 /* tab_home_animate.json in Resources */,
+				5A0696C228800E9600F72771 /* img_tab_message_1.png in Resources */,
+				5A0696BC28800E9600F72771 /* img_tab_home_1.png in Resources */,
+				5A0696C928800E9600F72771 /* gray_tabbar_message_animation.json in Resources */,
+				5A0696BB28800E9600F72771 /* img_tab_home_2.png in Resources */,
+				5A0696C828800E9600F72771 /* img_tab_me_0.png in Resources */,
+				5A0696C628800E9600F72771 /* gray_tabbar_home_animation.json in Resources */,
+				5A0696BF28800E9600F72771 /* gray_tabbar_me_animation.json in Resources */,
+				5A0696BE28800E9600F72771 /* img_tab_home_0.png in Resources */,
+				5A0696C728800E9600F72771 /* green_lottie_tab_discover.json in Resources */,
+				5A0696BD28800E9600F72771 /* green_lottie_tab_home.json in Resources */,
+				5A0696C028800E9600F72771 /* tab_me_animate.json in Resources */,
+				5A0696BA28800E9600F72771 /* green_lottie_tab_news.json in Resources */,
+				5A06966C2880076200F72771 /* Assets.xcassets in Resources */,
+				5A0696CA28800E9600F72771 /* tab_message_animate.json in Resources */,
+				5A0696CB28800E9600F72771 /* img_tab_me_1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A0696752880076200F72771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A06967F2880076200F72771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		931494C3F0864D4787D52936 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScaffoldApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A0696582880075E00F72771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A0696A628800C6000F72771 /* KLMineViewController.m in Sources */,
+				5A0696A328800C5600F72771 /* KLShopViewController.m in Sources */,
+				5A0696612880075E00F72771 /* AppDelegate.m in Sources */,
+				5A0696722880076200F72771 /* main.m in Sources */,
+				5A06969D28800C2000F72771 /* KLHomeViewController.m in Sources */,
+				5A0696A028800C3600F72771 /* KLMessageViewController.m in Sources */,
+				5A06969928800B9300F72771 /* KLMainRootViewController.m in Sources */,
+				5A06969828800B9300F72771 /* MainTabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A0696732880076200F72771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A06967C2880076200F72771 /* ScaffoldAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A06967D2880076200F72771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A0696882880076200F72771 /* ScaffoldAppUITestsLaunchTests.m in Sources */,
+				5A0696862880076200F72771 /* ScaffoldAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A0696792880076200F72771 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A06965B2880075E00F72771 /* ScaffoldApp */;
+			targetProxy = 5A0696782880076200F72771 /* PBXContainerItemProxy */;
+		};
+		5A0696832880076200F72771 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A06965B2880075E00F72771 /* ScaffoldApp */;
+			targetProxy = 5A0696822880076200F72771 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A06966D2880076200F72771 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A06966E2880076200F72771 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A0696892880076200F72771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A06968A2880076200F72771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A06968C2880076200F72771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F21F6AFBD568772D4B5F44E /* Pods-ScaffoldApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8PDB4HA8Z;
+				GCC_PREFIX_HEADER = ScaffoldApp/ScaffoldPrefixHeader.pch;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScaffoldApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abite.channel.app.ScaffoldApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A06968D2880076200F72771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA52D4FC37EA2C607A6C9851 /* Pods-ScaffoldApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8PDB4HA8Z;
+				GCC_PREFIX_HEADER = ScaffoldApp/ScaffoldPrefixHeader.pch;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScaffoldApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abite.channel.app.ScaffoldApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A06968F2880076200F72771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8PDB4HA8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abite.channel.app.ScaffoldAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScaffoldApp.app/ScaffoldApp";
+			};
+			name = Debug;
+		};
+		5A0696902880076200F72771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8PDB4HA8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abite.channel.app.ScaffoldAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScaffoldApp.app/ScaffoldApp";
+			};
+			name = Release;
+		};
+		5A0696922880076200F72771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8PDB4HA8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abite.channel.app.ScaffoldAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScaffoldApp;
+			};
+			name = Debug;
+		};
+		5A0696932880076200F72771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8PDB4HA8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abite.channel.app.ScaffoldAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScaffoldApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A0696572880075E00F72771 /* Build configuration list for PBXProject "ScaffoldApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A0696892880076200F72771 /* Debug */,
+				5A06968A2880076200F72771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A06968B2880076200F72771 /* Build configuration list for PBXNativeTarget "ScaffoldApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A06968C2880076200F72771 /* Debug */,
+				5A06968D2880076200F72771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A06968E2880076200F72771 /* Build configuration list for PBXNativeTarget "ScaffoldAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A06968F2880076200F72771 /* Debug */,
+				5A0696902880076200F72771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A0696912880076200F72771 /* Build configuration list for PBXNativeTarget "ScaffoldAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A0696922880076200F72771 /* Debug */,
+				5A0696932880076200F72771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A0696542880075E00F72771 /* Project object */;
+}

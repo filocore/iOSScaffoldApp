@@ -1,0 +1,7 @@
+
+target 'ScaffoldApp' do
+
+  pod 'CYLTabBarController/Lottie', '~> 1.29.0'  # 依赖Lottie库
+  pod 'Masonry'
+
+end
